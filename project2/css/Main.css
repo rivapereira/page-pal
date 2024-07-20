@@ -3815,16 +3815,20 @@ project2/Test2.png
 
 	#main > header {
 		padding: 12em 0 10em 0 ;
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("project2/Test2.png");
- 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("project2/Test2.png");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("project2/Test2.png");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("project2/Test2.png");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://rivapereira.github.io/page-pal/project2/Test2.png"));
+ 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://rivapereira.github.io/page-pal/project2/Test2.png"));
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://rivapereira.github.io/page-pal/project2/Test2.png"));
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://rivapereira.github.io/page-pal/project2/Test2.png"));
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
 		text-align: center;
 	}
+
+
+
+
 
 		#main > header h2 {
 			font-size: 1.75em;
@@ -3973,6 +3977,30 @@ project2/Test2.png
 
 
 
+
+body.landing #page-wrapper {
+	background-image: linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://rivapereira.github.io/page-pal/project2/Test2.png");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding-top: 0;
+}
+
+body.is-mobile.landing #banner,
+body.is-mobile.landing .wrapper.style4 {
+	background-image: linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://rivapereira.github.io/page-pal/project2/Test2.png");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+
+
+
+/* 
+
+
   body.landing #page-wrapper {
 	background-image: linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("project2/Test2.png");
 	background-size: cover;
@@ -3990,7 +4018,7 @@ project2/Test2.png
 	background-repeat: no-repeat;
   }
 
-
+ */
 
 
 	/* body.landing #page-wrapper {
